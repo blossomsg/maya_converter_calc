@@ -13,10 +13,10 @@ def main():
         None
     """
     # CAVEAT: "win" var is global so that it can be used in multiple situations in the script
-    global win
+    global window
     # CAVEAT: first it will try to close if the win exist
     try:
-        win.close()
+        window.close()
     except:
         pass
     window = maya_converter_calc_func.MayaConverterCalcFunc()
