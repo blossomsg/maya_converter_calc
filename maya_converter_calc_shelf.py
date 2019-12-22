@@ -5,6 +5,7 @@ if path in sys.path:
 else:
     print "path does not exist"
     sys.path.append(path)
+import maya_converter_calc_func
 
 def main():
     """
